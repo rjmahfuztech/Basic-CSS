@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Basic CSS</title>
+	<style type="text/css">
+		p {
+			background-color: lightblue;
+			font-family: Times New Roman;
+			font-size: 22px;
+			padding: 10px;
+		}
+		span {
+			color:red;
+		}
+	</style>
+	<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+	<h1>Basic CSS</h1>
+	<dl>
+		<dt>CSS:</dt>
+		<dd>Cascading Style Sheets</dd>
+	</dl>
+	<h2>Declaration of CSS : </h2>
+	<h3>There are three ways to declare CSS as follows :</h3>
+	<ol type="A">
+		<li>Inline</li>
+		<li>Internal</li>
+		<li>External</li>
+	</ol>
+	<p style="font-family:georgia;font-size:22px;color:black; background-color:khaki;padding:10px;">
+		<strong><u>A. Inline CSS:</u></strong> <br>To apply unique style of a single HTML tag an Inline CSS is very effective. We can use Inline CSS by Style attribute in HTML tag.<br>
+		<b>Syntax of Inline CSS:</b><br>
+		In case of single value of style :<br>
+			<i>
+				&lt;tag style="property:value"&gt; Element of HTML tag &lt;/tag &gt;<br>
+			</i>
+		In case of Multiple values of style :<br>
+			<i>
+				&lt; tag style="property:value;property:value;property:value"&gt; Element of HTML tag &lt;/tag&gt; <br>
+			</i>
+				<span style="font-family:georgia;font-size:22px;color:red; background-color:khaki;">**Designed by Inline CSS</span>
+	</p>
+	<p><strong><u>B. Internal CSS:</u></strong> <br>To apply same style of HTML tag in a HTML page. Internal CSS is declare in head section of HTML.<br>
+	<b>Syntax of Internal CSS: </b><br>
+	In case of single value of style :<br>
+		<i>
+			&lt; style &gt; <br>
+			selector {
+			property:value
+			}<br>
+			&lt;/style &gt; <br>
+		</i>
+	In case of Multiple values of style:<br>
+		<i>
+			&lt; style &gt;
+			selector {
+			property:value;
+			property:value;
+			property:value;
+			} <br>
+			&lt; /style &gt; <br>
+		</i>
+	<span>**Designed by Internal CSS</span>
+	</p>
+	<p class="external"><strong><u>C. External CSS:</u></strong> <br>To apply style of many HTML pages an External CSS is very popular and effective for indentification. External CSS file is linked up head section of HTML.<br>
+	<b>Syntax of External CSS:</b><br>
+		In head section of HTML: <br>
+			&lt; link rel="stylesheet" href="location of file is inserted here" /&gt; <br>
+			External style file is designed by: <br>
+				&nbsp;&nbsp;In case of single value:<i> selector {property:value}</i><br>
+				&nbsp;&nbsp;In case of multiple values:<i> selector {property:value;property:value;property:value}</i><br>
+	<span class="external_span">**Designed by External CSS</span>
+	</p>
+	
+</body>
+</html>

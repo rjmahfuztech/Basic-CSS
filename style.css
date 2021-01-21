@@ -1,0 +1,15 @@
+body{
+	background-color: whitesmoke;
+}
+dl,ol{
+		font-size:24px;
+	}
+.external{
+	font-family: georgia;
+	font-size: 22px;
+	background-color: lightgray;
+	padding: 10px;
+}
+.external_span{
+	color: red;
+}
